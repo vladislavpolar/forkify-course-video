@@ -193,3 +193,6 @@ export const uploadRecipe = async function (newRecipe) {
 // // Merging changes together. New feature branch with master branch
 // when we in branch in which we want to add new code we use
 // git merge (name of branch which contains new code) new-feature
+
+// pushing into git one more new branch
+// git push origin new-feature
