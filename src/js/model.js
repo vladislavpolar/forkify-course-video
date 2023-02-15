@@ -196,3 +196,6 @@ export const uploadRecipe = async function (newRecipe) {
 
 // pushing into git one more new branch
 // git push origin new-feature
+
+// creating README.md file
+// touch README.md
