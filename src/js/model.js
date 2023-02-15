@@ -168,3 +168,21 @@ export const uploadRecipe = async function (newRecipe) {
 // Commiting the files - we save modifications of all the files to the repository
 // snapshot of code at the certain point of time
 // git commit -m 'Initial commit'
+
+// Go to previous commit and delete changes
+// git reset --hard HEAD
+
+// git log - log of all the commits. key q - quit log, sometimes :q
+
+// git reset --hard fdkfjslfjdsljl (id of commit which taken from log). Deleting previous commit
+
+
+// But usually for better safety, we create Git branch
+// git branch - list all the branches that we currently have. * - means the branch in which we are cur in
+
+// Creating New Branch (copy of current master branch in which we can develop new code and
+// adding new features, but without effecting the code that in the master branch )
+// git branch "name"
+
+// Switching to the new branch
+// git checkout new-feature (name)
