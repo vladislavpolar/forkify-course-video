@@ -172,3 +172,24 @@ export const uploadRecipe = async function (newRecipe) {
 // Merging changes together. New feature branch with master branch
 // when we in branch in which we want to add new code we use
 // git merge (name of branch which contains new code) new-feature
+// Go to previous commit and delete changes
+// git reset --hard HEAD
+
+// git log - log of all the commits. key q - quit log, sometimes :q
+
+// git reset --hard fdkfjslfjdsljl (id of commit which taken from log). Deleting previous commit
+
+
+// But usually for better safety, we create Git branch
+// git branch - list all the branches that we currently have. * - means the branch in which we are cur in
+
+// Creating New Branch (copy of current master branch in which we can develop new code and
+// adding new features, but without effecting the code that in the master branch )
+// git branch "name"
+
+// Switching to the new branch
+// git checkout new-feature (name)
+
+// // Merging changes together. New feature branch with master branch
+// when we in branch in which we want to add new code we use
+// git merge (name of branch which contains new code) new-feature
